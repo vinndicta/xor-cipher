@@ -1,5 +1,5 @@
 # Xor Cipher
-A XOR cipher is a type of additive cypher that operates according to the following properties:
+A XOR cipher is a type of additive cipher that operates according to the following properties:
 
 ![image](https://github.com/user-attachments/assets/ab80267a-3165-46fc-976b-5f48e5237062)
 
