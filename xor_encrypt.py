@@ -31,8 +31,8 @@ def xor(k_bit, m_bit):
 
 def x_cipher(key_b, msg_b):
     cipher = ''
-    for bit in range(len(msg_b)):
-        cipher += str(xor(int(key_b[bit]), int(msg_b[bit])))
+    for bit in range(len(msg_b)): # we apply the xor bit by bit
+        cipher += str(xor(int(key_b[bit]), int(msg_b[bit]))) 
     return cipher
 
 print(f"\nCipher : {x_cipher(key_b, msg_b)}\n")
